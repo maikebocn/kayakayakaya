@@ -91,6 +91,11 @@ ul.interest li{display:inline;margin-right:1em;line-height:1.5em;}
 			<script src="assets/js/html5.js"></script>
 			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
+<?php
+    $file_name = 'head.txt';
+    $script_head = file_get_contents( $file_name );
+    echo $script_head;
+    ?>	
 </head>
 <body>
 <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
