@@ -20,8 +20,8 @@ $maxside = 245; // max link sidebar
 $maxfoot = 50; //max link footer
 
 ### Sitemap Setting ###
-$maxmapindex = 100; // max url dalam sitemap
-$maxpostimagemap = 20; // max permalink URLs dalam image sitemap
+$maxmapindex = 4999; // max url dalam sitemap
+$maxpostimagemap = 99; // max permalink URLs dalam image sitemap
 
 ### Auto Submit Sitemap ke Gogle & Bing ###
 $autosubmit = 'on';
