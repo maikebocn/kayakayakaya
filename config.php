@@ -16,7 +16,7 @@ $maxhomelink = 200;
 
 ### Single Page Link ###
 $maxtag = 20; // max link tags
-$maxside = 50; // max link sidebar
+$maxside = 245; // max link sidebar
 $maxfoot = 50; //max link footer
 
 ### Sitemap Setting ###
