@@ -12,7 +12,7 @@ $prefix = '';
 $suffix = ' - Auto Electrical Wiring Diagram';
 
 ### Home Page Link ###
-$maxhomelink = 200;
+$maxhomelink = 4500;
 
 ### Single Page Link ###
 $maxtag = 20; // max link tags
