@@ -179,7 +179,7 @@ else {
 		$isi .= '<h1>'.$judul.'</h1>'."\r\n";
 		### API 
 		$url = 'https://www.bing.com/images/api/custom/search?q='.$kw.'&imageType=Line&count=19&offset=0';
-		#$url = 'https://www.bing.com/images/api/custom/search?q='.$kw.'&imageType=Line&aspect=Wide&count=21&offset=0';
+		#$url = 'https://www.bing.com/images/api/custom/search?q='.$kw.'&imageType=Line&aspect=Wide&count=99&offset=0';
 
 		$urlrel = 'https://www.bing.com/AS/Suggestions?pt=page.home&mkt=en-id&qry='.$kw.'&cp=21&cvid=*';
 		$urld = 'https://www.bing.com/search?q='.$kw.'&cp=21&cvid=*';
