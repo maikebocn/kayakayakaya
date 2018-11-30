@@ -113,7 +113,7 @@ ul.interest li{display:inline;margin-right:1em;line-height:1.5em;}
 </nav>
 <div class="container-fluid">
 <div class="row">
-<span style=color:#666;font-size:small><div itemscope itemtype=http://data-vocabulary.org/Review-aggregate><span itemprop=itemreviewed><?php echo $domains; ?></span> <img itemprop=photo src=""> <span itemprop=rating itemscope itemtype=http://data-vocabulary.org/Rating><span itemprop=average>9</span> out of <span itemprop=best>10</span></span> based on <span itemprop=votes><?php echo number_format(rand( 100, 1000)); ?></span> ratings. <span itemprop=count><?php echo number_format(rand( 1000, 5000)); ?></span> user reviews.</div></span>
+
 <?php
 $relat = "<div class='related'><h2>Related with ".strtolower($judul)."</h2>\r\n";
 $kiweds = file($kwf[1], FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
@@ -288,6 +288,7 @@ else {
 </div>
 <div class="col-sm-4">
 <div class="list-group margin-b-3">
+<span style=color:#666;font-size:small><div itemscope itemtype=http://data-vocabulary.org/Review-aggregate><span itemprop=itemreviewed><?php echo $domains; ?></span> <img itemprop=photo src=""> <span itemprop=rating itemscope itemtype=http://data-vocabulary.org/Rating><span itemprop=average>9</span> out of <span itemprop=best>10</span></span> based on <span itemprop=votes><?php echo number_format(rand( 100, 1000)); ?></span> ratings. <span itemprop=count><?php echo number_format(rand( 1000, 5000)); ?></span> user reviews.</div></span>	
 <h3>Recent Files</h3>
 <?php
 $kiweds = file($kwf[2], FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
